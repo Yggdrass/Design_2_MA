@@ -1,0 +1,89 @@
+:root {
+    --main-color: rgba(174, 140, 196, 0.767);
+    --black: black;
+    --white: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    margin: 0;
+    background-image: url(./images/full-bloom.png);
+    background-repeat: repeat;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-color);
+    
+    
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.categories {
+    background: var(--white);
+    max-width: 70rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.picture {
+    max-width: 30rem;
+}
+
+.container_box {
+    text-transform: uppercase;
+    max-width: 80rem;
+    background: var(--main-color);
+    padding: 2rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+
+
+.big_logo {
+    max-width: 100%;
+}
+
+
+
+.big_logo_container {
+    
+    width: 70rem;
+    background-color: var(--white);
+}
+
+
+
+
+
+#logo {
+    max-width: 7em;
+    padding-right: 20rem;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--black);
+    padding: 2rem;
+    font-size: 2rem;
+}
